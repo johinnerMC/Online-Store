@@ -10,7 +10,7 @@ export const TopMenu = () => {
   const  openSideMenu = useUIStore(state => state.openSideMenu); 
 
   return (
-    <nav className="flex px-4 justify-between items-center w-full">
+    <nav className="flex px-5 justify-between items-center w-full">
 
         {/* logo */}
         <div>
@@ -26,7 +26,7 @@ export const TopMenu = () => {
 
           <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-100 " href="/category/men">Hombres</Link>
           <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-100 " href="/category/women">Mujeres</Link>
-          <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-100 " href="/category/kids">Niños</Link>
+          <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-100 " href="/category/kid">Niños</Link>
 
         </div>
 

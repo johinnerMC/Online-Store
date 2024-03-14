@@ -10,22 +10,22 @@ import { useUIStore } from "@/store";
 const menuItem = {
     clients: [
         {
-            path: '/',
+            path: '/p',
             icon: <IoPersonOutline size={30}/>,
             title: 'Perfil'
         },
         {
-            path: '/',
+            path: '/o',
             icon: <IoTicketOutline size={30}/>,
             title: 'Ordenes'
         },
         {
-            path: '/',
+            path: '/i',
             icon: <IoLogInOutline size={30}/>,
             title: 'Ingresar'
         },
         {
-            path: '/',
+            path: '/s',
             icon: <IoLogOutOutline size={30}/>,
             title: 'Salir'
         }
@@ -33,17 +33,17 @@ const menuItem = {
     ],
     administration: [
         {
-            path: '/',
+            path: '/pr',
             icon: <IoShirtOutline size={30}/>,
             title: 'Productos'
         },
         {
-            path: '/',
+            path: '/or',
             icon:<IoTicketOutline size={30}/>,
             title: 'Ordenes'
         },
         {
-            path: '/',
+            path: '/us',
             icon: <IoPeopleOutline size={30}/>,
             title: 'Usuarios'
         }
