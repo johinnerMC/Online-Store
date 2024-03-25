@@ -1,13 +1,20 @@
 import { titleFont } from '@/config/fonts';
 import Link from 'next/link';
 
-export default function LoginPage() {
+// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
+export default function () {
   return (
     <div className="flex flex-col min-h-screen pt-32 sm:pt-52">
 
-      <h1 className={ `${ titleFont.className } text-4xl mb-5` }>Ingresar</h1>
+      <h1 className={ `${ titleFont.className } text-4xl mb-5` }>Nueva cuenta</h1>
 
       <div className="flex flex-col">
+
+        <label htmlFor="email">Nombre completo</label>
+        <input
+          className="px-5 py-2 border bg-gray-200 rounded mb-5"
+          type="text" />
+
 
         <label htmlFor="email">Correo electrónico</label>
         <input
@@ -23,7 +30,7 @@ export default function LoginPage() {
         <button
           
           className="btn-primary">
-          Ingresar
+          Crear cuenta
         </button>
 
 
@@ -35,9 +42,9 @@ export default function LoginPage() {
         </div>
 
         <Link
-          href="/auth/new-account" 
+          href="/auth/login" 
           className="btn-secondary text-center">
-          Crear una nueva cuenta
+          Ingresar
         </Link>
 
       </div>

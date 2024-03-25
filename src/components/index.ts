@@ -2,6 +2,7 @@ export * from './ui/not-found/PageNotFound'
 export * from './ui/Top-menu/TopMenu'
 export * from './ui/sidebar/Sidebar'
 export * from './ui/title/Title'
+export * from './ui/footer/Footer'
 
 
 export * from './products/product-grid/ProductGrid'
