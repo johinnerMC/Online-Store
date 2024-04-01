@@ -26,7 +26,7 @@ docker compose up -d
 * DataBase: ```DB_NAME```
 * Password: ```DB_PASSWORD```
 
-![Ejemplo de configuracion.](https://raw.githubusercontent.com/johinnerMC/cloud-images/master/guia/TablePlus.png"Configuracion.")
+![Ejemplo de configuracion.](https://raw.githubusercontent.com/johinnerMC/cloud-images/master/guia/TablePlus.png "Configuracion.")
 
 5. Configurar Prisma Client
 > Ajusta ```DATABASE_URL``` con las variables de PostgreSQL
